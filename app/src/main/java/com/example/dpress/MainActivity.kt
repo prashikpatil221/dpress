@@ -22,9 +22,24 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    fun goJornal(view: View) {}
-    fun goStrategy(view: View) {}
-    fun goMoti(view: View) {}
-    fun goDoc(view: View) {}
-    fun goInfo(view: View) {}
+    fun goJornal(view: View) {
+        val intent = Intent(this,JornalAct::class.java)
+        startActivity(intent)
+    }
+    fun goStrategy(view: View) {
+        val intent = Intent(this,StrategyAct::class.java)
+        startActivity(intent)
+    }
+    fun goMoti(view: View) {
+        val intent = Intent(this,MotiAct::class.java)
+        startActivity(intent)
+    }
+    fun goDoc(view: View) {
+        val intent = Intent(this,DocAct::class.java)
+        startActivity(intent)
+    }
+    fun goInfo(view: View) {
+        val intent = Intent(this,InfoAct::class.java)
+        startActivity(intent)
+    }
 }

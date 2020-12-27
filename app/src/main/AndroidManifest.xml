@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dpress">
-        <activity android:name=".MusicAct"></activity>
+        <activity android:name=".JornalAct"></activity>
+        <activity android:name=".DocAct" />
+        <activity android:name=".MotiAct" />
+        <activity android:name=".InfoAct" />
+        <activity android:name=".StrategyAct" />
+        <activity android:name=".MusicAct" />
         <activity android:name=".BreathAct" />
         <activity android:name=".StopAct" />
         <activity android:name=".HelpAct" />
