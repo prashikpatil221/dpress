@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/eggBlue"
+    android:layout_height="match_parent"
+    tools:context=".HelpAct">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/breathing"
+        android:onClick="goBreath"
+         />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/music"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="goMusic"
+         />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="135dp"
+        android:layout_height="144dp"
+        android:background="@drawable/stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404"
+        android:onClick="goStop"
+         />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="135dp"
+        android:layout_height="144dp"
+        android:background="@drawable/shovel"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.54"
+        android:onClick="goGround"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="132dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="14dp"
+        android:text="Get Grounded"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="14dp"
+        android:text="Music"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="132dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="14dp"
+        android:text="breathing"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="207dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="128dp"
+        android:background="@color/skyBlue"
+        android:gravity="center"
+        android:text="Help"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="134dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="23dp"
+        android:text="Stop"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

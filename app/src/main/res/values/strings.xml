@@ -1,3 +1,16 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">dpress</string>
+    <string name="stop">Take a Breath
+Focusing on your breathing slows down the adrenaline response and the distressing thoughts.
+Breathe mindfully and notice the sensations of breathing into your belly.
+        You might find it helpful to count your breaths, or to breath in to a count of 4, and
+out to a count of 4.</string>
+    <string name="stop2">Observe
+Your thoughts and feelings.
+For example
+Im anxious
+My body alarm system has been triggered
+My mind is tricking me into believing Im in danger
+Im feeling really tense and
+hyped up</string>
 </resources>

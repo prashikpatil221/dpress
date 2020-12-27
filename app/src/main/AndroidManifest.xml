@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dpress">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MusicAct"></activity>
+        <activity android:name=".BreathAct" />
+        <activity android:name=".StopAct" />
+        <activity android:name=".HelpAct" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
